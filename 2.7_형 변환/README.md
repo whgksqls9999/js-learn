@@ -1,3 +1,5 @@
+원문: https://ko.javascript.info/type-conversions
+
 <details>
 <summary>1. null, undefined를 숫자형으로 변경 시 결과값은?</summary>
 
