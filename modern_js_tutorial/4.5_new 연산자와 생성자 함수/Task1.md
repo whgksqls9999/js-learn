@@ -2,6 +2,7 @@
 
 <details>
   <summary>정답</summary>
+  
   ```js
   const obj = {};
   function A(){
