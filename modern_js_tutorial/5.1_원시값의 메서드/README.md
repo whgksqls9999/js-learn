@@ -9,7 +9,7 @@
   <summary>2. 원시값의 메서드에 접근할 때 나타나는 동작 방식</summary>
   원시 래퍼 객체(wrapper object)를 임시로 생성해 해당 객체의 메서드, 프로퍼티에 접근
 
-  작업이 끝나면 해당 원시 래퍼 객체를 삭제
+  작업이 끝나면 해당 원시 래퍼 객체를 제거
 </details>
 
 <details>
@@ -17,8 +17,8 @@
   1. 원시값과 생성자로 생성한 값의 타입 체크 시 혼동할 수 있음
 
   ```js
-  console.log(typeof 1) // 'number'
-  console.log(typeof new Number(1) // 'object'
+  console.log(typeof 1); // 'number'
+  console.log(typeof new Number(1)); // 'object'
   ```
 
  2. 객체는 무조건 true를 반환하기 때문에 논리 평가 시 혼동할 수 있음.
