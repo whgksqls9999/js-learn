@@ -83,3 +83,45 @@
 
   IEEE-754에서는 숫자를 반올림하여 이를 해결하나 그 때 발생하는 미세한 정밀도 손실은 그대로 저장되어 0.1 + 0.2 === 0.3 은 false가 된다. 0.1과 0.2를 더할 때 각 수의 정밀도 손실까지도 더해지기 때문이다.
 </details>
+
+<details>
+  <summary>11. NaN === NaN 비교를 하지 않고 isNaN 함수를 필요로 하는 이유</summary>
+
+  NaN은 자기 자신을 포함하여 그 어떤 값과도 논리 평가에서 참을 반환하지 않기 때문
+
+  ```js
+  NaN === NaN; // false
+  ```
+</details>
+
+<details>
+  <summary>12. isFinite() 함수란?</summary>
+
+  인수를 숫자형으로 변환했을 때, NaN / Infinity / -Infinity 가 아닌 일반적인 숫자일 경우 참을 반환
+</details>
+
+<details>
+  <summary>13. Object.is 가 === 에 비해 이점을 가질 수 있는 케이스</summary>
+
+  1. NaN과 NaN을 비교할 때 Object.is(NaN, NaN)은 true를 반환
+
+  2. 0과 -0이 다르게 취급되어야 할 때. Object.is(0, -0)은 false를 반환
+</details>
+
+<details>
+  <summary>14. parseInt(), parseFloat(num, radix) 함수의 반환값</summary>
+
+  문자열 num에서 radix진법의 수를 파싱해 반환
+
+  문자열 내에서 불가능할 때까지 숫자를 읽은 후 해당 숫자를 반환
+
+  숫자를 읽어나가다가 불가능한 지점에 도달했을 경우, 이미 읽어온 숫자를 반환
+
+  아무 숫자를 읽지 못했다면 NaN를 반환
+</details>
+
+<details>
+  <summary>15. Math.random() 함수가 반환하는 수의 범위</summary>
+
+  0에서 1사이 (1은 미포함)
+</details>
