@@ -9,13 +9,13 @@
 </details>
 
 <details>
-  <summary>3. hint의 종류</summary>
+  <summary>2. hint의 종류</summary>
 
   string / number / default
 </details>
 
 <details>
-  <summary>4. hint가 default가 되는 경우</summary>
+  <summary>3. hint가 default가 되는 경우</summary>
 
   1. +의 인수가 객체일 때. => 문자열을 합치는 연산자 or 숫자를 더해주는 연산자
 
@@ -25,7 +25,7 @@
 </details>
 
 <details>
-  <summary>5. hint가 default가 될 것 같으나 number로 고정되어 있는 경우</summary>
+  <summary>4. hint가 default가 될 것 같으나 number로 고정되어 있는 경우</summary>
 
   >, <와 같은 크기 비교 연산자를 사용할 때.
 
@@ -33,7 +33,7 @@
 </details>
 
 <details>
-  <summary>6. 객체 형 변환시 작동하는 알고리즘</summary>
+  <summary>5. 객체 형 변환시 작동하는 알고리즘</summary>
 
   1. 객체에 obj[Symbol.toPrimitive](hint) 메서드가 있는지 찾고, 있다면 호출
 
@@ -45,7 +45,7 @@
 </details>
 
 <details>
-  <summary>7. 일반 객체에 대한 toString, valueOf 반환값</summary>
+  <summary>6. 일반 객체에 대한 toString, valueOf 반환값</summary>
 
   toString: '[object Object]'
 
@@ -59,7 +59,7 @@
 </details>
 
 <details>
-  <summary>8. 3 * obj 에서 나타나는 형 변환의 동작 과정</summary>
+  <summary>7. 3 * obj 에서 나타나는 형 변환의 동작 과정</summary>
 
   1. obj를 원시값으로 변환시킨다. 변환 규칙은 위 쪽의 내용들 (Symbol.toPrimitive, toString, valueOf)를 따른다.
 
