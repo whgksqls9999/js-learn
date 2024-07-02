@@ -27,7 +27,7 @@
 <details>
   <summary>4. hint가 default가 될 것 같으나 number로 고정되어 있는 경우</summary>
 
-  >, <와 같은 크기 비교 연산자를 사용할 때.
+  크기 비교 연산자(>, <)를 사용할 때.
 
   하위 호환성때문에 hint를 number로 고정
 </details>
