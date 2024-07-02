@@ -49,7 +49,7 @@
 
   toString: '[object Object]'
 
-  valueOf: 객체 자신
+  valueOf: 객체 자신. 반환값이 객체 자신이므로 그 결과가 무시됨
 
   ```js
   let user = {name: 'John'};
