@@ -77,3 +77,37 @@
   console.log(id === idAgain); // true. 두 심볼은 같은 값을 가짐
   ```
 </details>
+
+<details>
+  <summary>7. 심볼을 활용해 이름을 찾는 메서드</summary>
+
+  Symbol.keyfor(sym);
+
+  전역 심볼 레지스트리에서 입력된 심볼의 이름을 찾는다.
+
+  전역 심볼 레지스트리에 등록되어 있지 않다면, undefined를 반환한다.
+
+  ```js
+  let sym = Symbol.for('id');
+
+  console.log(Symbol.keyfor(sym)); // id
+  ```
+</details>
+
+<details>
+  <summary>8. 시스템 심볼에 접근하는 방법</summary>
+
+  Symbol.*
+</details>
+
+<details>
+  <summary>9. 객체 내 심볼을 확인할 수 있는 메서드</summary>
+
+  ```js
+  Object.getOwnPropertySymbols(obj) // 객체 내 모든 심볼 확인
+
+  Reflect.ownKeys(obj) // 심볼형 키를 포함한 객체의 모든 키 반환
+  ```
+</details>
+
+
