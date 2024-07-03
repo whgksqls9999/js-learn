@@ -35,7 +35,7 @@
 <details>
   <summary>5. 객체 형 변환시 작동하는 알고리즘</summary>
 
-  1. 객체에 obj[Symbol.toPrimitive](hint) 메서드가 있는지 찾고, 있다면 호출
+  1. 객체에 obj\[Symbol.toPrimitive](hint) 메서드가 있는지 찾고, 있다면 호출
 
   2. 1에 해당하지 않고 hint가 'string'이라면 obj.toString() 혹은 obj.valueOf() 호출
 
