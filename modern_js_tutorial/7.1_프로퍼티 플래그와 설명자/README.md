@@ -3,7 +3,8 @@
 <details>
   <summary>1. 플래그란 무엇이고 그 종류는?</summary>
 
-  객체 프로퍼티에 값과 함께 저장되는 특별한 속성
+  객체 프로퍼티에 값과 함께 저장되는 특별한 속성.
+  프로퍼티에 제약사항을 걸어준다
 
   1. writable - true이면 값을 수정할 수 있음
   2. enumerable - true이면 반복문을 사용해 나열할 수 있음. false일때는 Object.keys()에서도 나타나지 않음
