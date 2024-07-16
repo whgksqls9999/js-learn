@@ -41,5 +41,20 @@
   렉시컬 환경이 만들어지는 즉시 초기화되어 바로 접근해 사용할 수 있다.
 </details>
 
+<details>
+  <summary>7. 클로저란?</summary>
 
+  외부 변수를 기억하고 이 변수에 접근할 수 있는 함수
+</details>
 
+<details>
+  <summary>8. 함수의 숨김 프로퍼티인 [[Environment]]는 어떤 값이 저장되나</summary>
+
+  함수 자신이 생성되었던 렉시컬 환경에 대한 참조
+</details>
+
+<details>
+  <summary>9. 함수 호출이 끝나면 관련 변수를 참조할 수 없는 이유</summary>
+
+  함수가 호출되고 동작이 끝나면 해당 함수에 대응되는 렉시컬 환경이 메모리에서 제거되기 때문
+</details>
