@@ -26,6 +26,7 @@
 
   1. 화살표 함수는 this를 가지지 않는다.
   2. 유사 배열 객체인 arguments가 없다.
+  3. new와 함께 호출할 수 없다.
 </details>
 
 <details>
