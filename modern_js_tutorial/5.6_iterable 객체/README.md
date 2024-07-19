@@ -27,7 +27,7 @@ done이 true일 때는 반복 종료를 나타냄.
 
   Array.from(arr, mapFn, thisArg);
 
-  arr: 배열로 만들 대상이 될 이터러블, 유사 배열 객쳉
+  arr: 배열로 만들 대상이 될 이터러블, 유사 배열 객체
 
   mapFn: 매핑. arr의 각 요소에 mapFn 함수를 적용시킨 결과값을 바탕으로 배열 생성
 
