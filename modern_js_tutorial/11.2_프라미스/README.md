@@ -68,4 +68,6 @@ let promise = new Promise(function (resolve, reject){
 
   1. finally는 프라미스의 이행, 거부 여부를 알 수 없다.
   2. finally는 자동으로 다음 핸들러에 결과와 에러를 전달한다.
+
+  finally 뒤에 then을 붙이면 전달받은 결과, 에러를 사용할 수 있음
 </details>
