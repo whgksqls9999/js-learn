@@ -5,7 +5,7 @@
 
   생성자 함수의 프로토타입이 객체일 경우 해당 정보를 사용해 [[Prototype]]을 설정
 
-  생성자 함수의 prototype 프로퍼티에 객체를 지정하면 해당 객체가 [[Prototype]]이 된다.
+  생성자 함수의 prototype 프로퍼티에 객체를 지정하면 해당 생성자 함수로 생성된 객체의 [[Prototype]]이 된다.
 </details>
 
 <details>
