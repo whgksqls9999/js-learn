@@ -27,3 +27,9 @@
 
   혹은 덮어씌우더라도 constructor 프로퍼티를 다시 만들어줘야 한다.
 </details>
+
+<details>
+  <summary>4. 생성자 함수의 prototype 프로퍼티가 가지는 의미</summary>
+
+  해당 생성자 함수를 통해 생성된 객체의 [[Prototype]]을 prototype 프로퍼티 값으로 지정하라는 의미
+</details>
